@@ -148,7 +148,8 @@ async function handleRequest(request) {
   console.log(path)
   if(!path){
 
-    const html= await fetch("https://xytom.github.io/Url-Shorten-Worker/"+config.theme+"/index.html")
+    // const html= await fetch("https://xytom.github.io/Url-Shorten-Worker/"+config.theme+"/index.html")
+    const html= await fetch("https://liguoqinjim.com/Url-Shorten-Worker/"+config.theme+"/index.html")
     
     return new Response(await html.text(), {
     headers: {
